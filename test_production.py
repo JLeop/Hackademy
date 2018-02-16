@@ -8,5 +8,6 @@ class TestProduction(unittest.TestCase):
         output = [1,2]
         self.assertListEqual(output,production.remove_duplicates(input))
 
+
 if __name__ == "__main__":
     unittest.main()
