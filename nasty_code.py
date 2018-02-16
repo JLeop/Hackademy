@@ -1,0 +1,7 @@
+
+a_list = [0,1,2,3,4,5,6,7,8,9,10]
+def print_square(a_list):
+    output = []
+    for each in a_list:
+        output.append(each*each)
+    return output
